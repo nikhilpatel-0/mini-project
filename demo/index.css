@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100vh;
+    
+    
+  }
+
+  .box{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(230, 146, 36);
+    border: 2px solid black;
+   
+   
+    
+    
+   
+  }
+  .box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(36, 230, 120);
+    border: 2px solid black;
+  }

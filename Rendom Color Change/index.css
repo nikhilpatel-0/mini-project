@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .box{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid white;
+    border-radius: 50%;
+
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(52, 151, 237);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+  }
+
+  button:active {
+    transform: scale(0.95);
+    background-color: rgb(32, 130, 210);
+  }
+  
+
